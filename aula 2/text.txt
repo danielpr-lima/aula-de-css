@@ -1,0 +1,57 @@
+<h4>Classe</h4>
+  <ul>
+    <li>Pode ser usada em vários elementos</li>
+    <li>Serve para reaproveitar estilos</li>
+    <li>É o mais usado no dia a dia</li>
+  </ul>
+  Todos os elementos que estiverem o utilizando ficam iguais <br>
+  <h4>ID(Identificador Único)</h4>
+  <ul>
+    <li>Deve ser único na página</li>
+    <li>Identifica um elemento específico</li>
+  </ul>
+  <b>
+    Dentro de uma classe PODE TER VARIOS ELEMENTOS.
+  </b>
+</p>
+
+Me corrijam caso esteja errado
+
+Alexandre Ferreira
+22:11
+<!doctype html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula-1 / CSS</title>
+  </head>
+  <body>
+    <p id="texto">Boa noite!</p>
+    <h1 class="titulo">Turma 1</h1>
+    <h4 class="titulo" id="fonte">Turma 2</h4>
+    <h4 class="titulo">h4 numero 2</h4>
+    <div>
+      <h2>toda sala so observa</h2>
+    </div>
+  </body>
+</html>
+h2 {
+  font-size: 200px;
+}
+
+.titulo {
+  font-size: 200px;
+  background-color: aqua;
+  color: green;
+}
+
+#texto {
+  font-size: 100px;
+  background-color: rebeccapurple;
+}
+
+#fonte {
+  font-family: arial;
+}

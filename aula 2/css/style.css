@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Permanent+Marker&display=swap');
+
+h1{
+    background: linear-gradient(to right, red, blue); /* to right é a direção do gradiente também pode ser to left, to top, to bottom ou um valor em graus como 200deg */
+    color: white; /* cor da fonte */
+    font-family: 'Great Vibes', cursive; /* fonte da letra */
+    text-align: center; /* alinha o texto ao centro */
+}
+h2{
+    background: linear-gradient(0deg, red, green, blue); /* 200deg é a direção do gradiente também pode ser to right, to left, to top, to bottom */
+    color: white; /* cor da fonte */
+    font-family: 'Permanent Marker', cursive; /* fonte da letra */
+    text-align: right; /* alinha o texto à direita tambem pode ser usado justify, center e left */
+}
+body{
+    background-color: rgb(126, 82, 82);
+}
+
+.tt{
+    /* 1 rem é igual a 16px, ou seja, o tamanho da fonte do elemento raiz (html) */ 
+    /*o 1.5 do line-height é o mesmo que 150% do tamanho da fonte, ou seja, 24px que estava no figma */   
+
+    background: linear-gradient(180deg, red, green, blue); /* 200deg é a direção do gradiente também pode ser to right, to left, to top, to bottom */
+    color: white; /* cor da fonte */
+    font-size: 16px; /* define o tamanho da fonte */
+    line-height: 1.5; /* define a altura da linha, ou seja, o espaço entre as linhas de texto   */
+    font-family: 'roboto', sans-serif;
+    font-weight: 400; /* define a espessura da fonte, quanto maior o valor mais grossa a letra fica, os valores comuns são 100, 300, 400, 500, 700 e 900 */
+    letter-spacing: 0.5px; /* define o espaçamento entre as letras */
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+  background-color: aqua; /* Define a cor de fundo */
+  color: black; /* Define a cor do preenchimento */
+  font-size: 100px; /* define o tamnho da font */
+  font-family: 'roboto'; /* muda o estilo de font */
+  text-align: center; /* Ela alinha o meu texto */
+}
+
+.tt {
+  font-size: 16px;
+  line-height: 1.5; /* Define a altura de linha */
+  letter-spacing: 20px; /* define o espaçamento entre as letras */
+  font-weight: 900; /* Define a expessura da font */
+  font-family: 'roboto';
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: arial;
+  font-size: 20px;
+}
+
+
+div {
+  width: 700px;
+} */
