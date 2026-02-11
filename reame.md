@@ -18,11 +18,9 @@ Cada pasta neste repositório corresponde a uma aula ou módulo específico. Aba
 * **Conteúdo:** Importação de fontes externas do Google Fonts e aplicação de **Linear Gradients** em diferentes direções.
 * **Projeto:** Criação de layouts com ajustes de `line-height`, `letter-spacing` e alinhamentos de texto.
 
-### 📗 Aula 03 - [Nome da Aula ou Tema]
-* **Conteúdo:** [Ex: Flexbox e alinhamentos dinâmicos].
-* **Projeto:** [Ex: Criação de uma Navbar responsiva].
-
-> **Dica:** Você pode continuar adicionando novas aulas seguindo esse mesmo padrão!
+### 📗 Aula 03 - Box Model
+* **Conteúdo:** Estudo profundo de bordas (`border`), preenchimento interno (`padding`) e margens externas (`margin`).
+* **Destaque:** Criação de botões personalizados a partir de links, removendo o sublinhado padrão e aplicando `border-radius` de 50px.
 
 ---
 
