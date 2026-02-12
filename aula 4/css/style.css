@@ -1,0 +1,58 @@
+/* .caixa {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+
+}
+p {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    color: white;
+    padding: 15px;
+    clear: both; Garante que o parágrafo fique abaixo da imagem, evitando que o texto se sobreponha à imagem. 
+}
+img {
+    margin: 35px 35px;
+    width: 100px;
+    float: right;  Faz a imagem flutuar à direita de forma que o texto rode ao redor dela ,
+} */
+
+div {
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    height: 4000px;
+    margin: 0px;
+}
+
+.um {
+    border: 2px solid blue;
+    /* width: 100%;
+    height: 200px;
+    position: fixed; Fixa o elemento em uma posição específica na tela, independentemente do scroll. O elemento permanecerá visível mesmo quando o usuário rolar a página. 
+    background-color: violet;
+    z-index: 100; Define a ordem de empilhamento dos elementos, ou seja, qual elemento ficará por cima do outro. Quanto maior o valor do z-index, mais acima o elemento ficará em relação aos outros, como se fosee em camadas */
+}
+
+.dois {
+    border: 2px solid green;
+    position: relative;
+}
+
+.tres {
+    border: 2px solid red;
+    /* position: relative; Permite que o elemento seja posicionado em relação à sua posição normal. Ele pode ser movido usando as propriedades top, right, bottom e left, mas ainda ocupará o espaço original na página.
+    top: 400px; altera o elemento de lugar mas o seu espaço não é ocupado*/
+}
+
+.quatro {
+    border: 2px solid purple;
+    position: absolute;/* Permite que o elemento seja posicionado em relação ao seu elemento pai mais próximo que tenha uma posição relativa ou absoluta. O elemento é removido do fluxo normal do documento, o que significa que ele não ocupa mais espaço na página e pode ser posicionado em qualquer lugar dentro do elemento pai.*/
+    top: 0px;
+    width: 100%;
+}
+/*Anotações*/
+/* se eo elemento sai do fluxo normal do documento, ele não ocupa mais espaço na página, e os outros elementos se comportam como se ele não estivesse lá. Ele pode ser posicionado usando as propriedades top, right, bottom e left em relação ao seu elemento pai mais próximo que tenha uma posição relativa ou absoluta. Se nenhum elemento pai tiver uma posição relativa ou absoluta, o elemento será posicionado em relação à janela do navegador. */
