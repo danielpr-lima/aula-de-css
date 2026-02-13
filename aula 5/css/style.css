@@ -1,0 +1,19 @@
+.container {
+    background-color: bisque;
+    padding: 15px;
+    display: flex; /* Define o container como um flex container */
+    /*flex-direction: row-reverse; flex-direction fala a direção dos elementos dentro do container */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
+    justify-content: space-around; /* Alinha os itens horizontalmente com espaço ao redor */
+}
+
+.um, .dois, .tres, .quatro {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: black;
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
